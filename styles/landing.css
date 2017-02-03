@@ -1,0 +1,8 @@
+div.hero {
+    position: relative;
+    min-height: 600px;
+    background-image: url(../assets/images/backgrounds/randy.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
