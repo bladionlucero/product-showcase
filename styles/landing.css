@@ -18,6 +18,10 @@ nav.navbar > .logo {
     cursor: pointer;  /* produces the finger-pointer icon when you hover over the logo */
  }
 
+.phone {
+  position: relative;
+}
+
 div.sponsors {
   background-color: white;
   min-height: 321px;
