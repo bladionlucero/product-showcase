@@ -1,8 +1,48 @@
-div.hero {
+.hero {
     position: relative;
-    min-height: 600px;
+    min-height: 771px;
     background-image: url(../assets/images/backgrounds/randy.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.navbar {
+    position: relative;
+    padding: 15px 0px 0px 30px;
+    z-index: 1;
+}
+
+nav.navbar > .logo {
+    position: relative;
+    cursor: pointer;  /* produces the finger-pointer icon when you hover over the logo */
+ }
+
+div.sponsors {
+  background-color: white;
+  min-height: 321px;
+}
+
+
+div.coaches {
+    position: relative;
+    background-image: url(../assets/images/backgrounds/coaches.png);
+    background-repeat: no-repeat;
+    min-height: 2504px;
+    background-position: center center;
+    background-size: cover;
+}
+
+div.athletes {
+    position: relative;
+    background-image: url(../assets/images/backgrounds/athletes.png);
+    background-repeat: no-repeat;
+    min-height: 2666px;
+    background-position: center center;
+    background-size: cover;
+}
+
+div.footer {
+  min-height: 1309px;
+  background-color: #333333;
 }
