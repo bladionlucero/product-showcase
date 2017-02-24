@@ -18,6 +18,11 @@ nav.navbar > .logo {
   cursor: pointer;
 }*/
 
+div.account{
+  position: relative;
+  left: 1000px;
+}
+
 div.account #sign {
   width: 104.5px;
   height: 36px;
@@ -28,10 +33,39 @@ div.account #sign {
 
 .navbar {
   color: #E2E2E2;
+  padding-top: 2rem;
+}
+
+.CTA {
+  text-align: center;
+  color: white;
+}
+
+.power{
+  border-style: solid;
+  border-width: 7px;
+  border-color: #FFA740;
+  padding: 15px 0 15px 0;
+}
+
+h3.detail{
+  font-weight: 300;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.button{
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+  padding-top: 5px;
 }
 
 .phone {
   position: relative;
+}
+
+.navbar .logo {
+  padding: 4rem;
 }
 
 div.sponsors {
