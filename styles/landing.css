@@ -120,8 +120,22 @@ div.coaches {
   background-size: cover;
 }
 
+div.line {
+  border-width: 7px;
+  color: #FFA740;
+  border-style: solid;
+}
+
 h1.title, h3.title {
   font-weight: 700;
+}
+
+h3.title{
+  color: #FFA740;
+}
+
+span {
+  color: white;
 }
 
 div.athletes {
