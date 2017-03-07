@@ -20,6 +20,7 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/skeleton.css">
   <link rel="stylesheet" href="styles/landing.css">
@@ -31,63 +32,89 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="hero">
-   <!--  <div class="container">
-      <div class="row"> -->
         <nav class="navbar">
           <a href="index.html" class="logo">
             <img src="assets/images/omnia_logo.png" alt="omnia logo">
           </a>
-          <div class="container">
-            <div class="row">
               <div class="links">
-                <h6>OVERVIEW <i class="fa fa-angle-down" aria-hidden="true"></i></h6>
-                <h6>ABOUT US <i class="fa fa-angle-down" aria-hidden="true"></i></h6>
-                <h6>CONTACT</h6>
-                <h6>BLOG</h6>
-              </div>
+                <div class="tab">
+                  <h6>OVERVIEW <i class="fa fa-angle-down" aria-hidden="true"></i></h6>
+                </div>
+                <div class="tab">
+                  <h6>ABOUT US <i class="fa fa-angle-down" aria-hidden="true"></i></h6>
+                </div>
+                <div class="tab">
+                  <h6>CONTACT</h6>
+                </div>
+                <div class="tab">
+                  <h6>BLOG</h6>
+                </div>
+                </div>
+          <div class="account">
+            <div class="tab">
+              <h6 id="log">LOG IN</h6>
+            </div>
+            <div class="tab">
+              <h6 id="sign">SIGN UP</h6>
             </div>
           </div>
-          <div class="account">
-            <h6>LOG IN</h6>
-            <h6 id="sign">SIGN UP</h6>
-          </div>
         </nav>
-      <!-- </div>
-    </div> -->
-    <div class="CTA">
-      <div class="container">
-        <div class="row">
-          <div class="eight columns">
-            <h1 class="power">POWER EVERYTHING</h1>
-            <h3 class="detail">all-in-one gym software</h3>
-            <a class="button button-primary" href="">JOIN TODAY</a>
-          </div>
+        <div class="hero-content">
+          <h1 class="power">POWER EVERYTHING</h1>
+          <h3 class="detail">all-in-one gym software</h3>
+          <button class="button-primary button">JOIN TODAY</button>
         </div>
-      </div>
-    </div>
   </div>
 
-  <div class="sponsors"></div>
+  <div class="sponsors">
+    <h2 id="sponsors">OUR PARTNERS</h2>
+  </div>
   <div class="coaches">
     <div class="container">
+        <div>
+          <h1>FOR COACHES</h1>
+          <div class="line"></div>
+          <p>With OMNIA, spend more time coaching and less time on the computer.</p>
+        </div>
       <div class="row">
         <div class="one-half column">
           <img class="phone" src="assets/images/phone_screens/calendar.png">
         </div>
+        <div>
+          <span class="ion-radio-waves"></span>
+          <h3>ANYWHERE, ANYTIME</h3>
+          <p>Easy-to-navigate system lessens the amount of time a coach uses to input workouts,. Convenient accessibility lets you change workouts on the fly.</p>
+        </div>
         <div class="one-half column">
           <img class="phone" src="assets/images/phone_screens/community.png">
+        </div>
+        <div>
+          <h3>COMMUNITY DRIVEN</h3>
+          <p>Friendly competition. Live-leaderboard displays athlete accomplishments daily and badges earned.</p>
         </div>
       </div>
     </div>
   </div>
   <div class="athletes">
     <div class="container">
+      <div>
+        <h1>FOR ATHLETES</h1>
+        <p>Whether against yourself or others, athletes spend more time in the gym and less time on their phones.</p>
+      </div>
       <div class="row">
         <div class="one-half column">
           <img class="phone" src="assets/images/phone_screens/check_in.png">
         </div>
+        <div>
+          <h3>CHECK-IN, CHECK-OUT</h3>
+          <p>OMNIA allows athletes to sign up for class with geo-location notifications. Giving more time for working out and less time fumbling through sign in process.</p>
+        </div>
         <div class="one-half column">
           <img class="phone" src="assets/images/phone_screens/achievement.png">
+        </div>
+        <div>
+          <h3>EARN 'EM ALL</h3>
+          <p>Coaches create badges and athletes earn them through their time and work ethic in the gym. Make it a game for self-motivation or get in some competitions with your friends.</p>
         </div>
         <div class="one column">
           <img src="assets/images/misc/apple_health.png">
@@ -109,6 +136,15 @@
         </div>
         <div class="one-half column">
           <img src="assets/images/omnia_logo.png" alt="omnia logo">
+        </div>
+        <div class="footer-links one">
+          <p>FAQ</p>
+          <p>BLOG</p>
+          <p>ABOUT</p>
+        </div>
+        <div class="footer-links two">
+          <p>hello@omnia.com</p>
+          <p>1-408-329-LIFT</p>
         </div>
       </div>
     </div>
