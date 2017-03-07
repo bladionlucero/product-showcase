@@ -78,9 +78,14 @@ div.account #sign {
   margin-right: auto;
 }
 
-h3.detail{
+p.detail, h3.detail{
   font-weight: 300;
   font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+div.phone{
+  padding-top: 110px;
 }
 
 .button{
@@ -121,21 +126,48 @@ div.coaches {
 }
 
 div.line {
-  border-width: 7px;
+  border-width: 3.5px;
   color: #FFA740;
   border-style: solid;
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
-h1.title, h3.title {
+.page-title{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.title {
   font-weight: 700;
+}
+
+h1.page-title {
+  font-size: 7.5rem;
+}
+
+.subtitle{
+  font-size: 4.5rem;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3.title{
   color: #FFA740;
+  text-align: center;
 }
 
 span {
   color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.product-detail{
+  padding-top: 300px;
 }
 
 div.athletes {
