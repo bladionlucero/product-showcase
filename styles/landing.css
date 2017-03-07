@@ -111,7 +111,6 @@ img.partners {
   padding-top: 25px;
 }
 
-
 div.coaches {
   position: relative;
   background-image: url(../assets/images/backgrounds/coaches.png);
@@ -119,6 +118,10 @@ div.coaches {
   min-height: 2504px;
   background-position: center center;
   background-size: cover;
+}
+
+h1.title, h3.title {
+  font-weight: 700;
 }
 
 div.athletes {
