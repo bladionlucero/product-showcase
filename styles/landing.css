@@ -78,7 +78,7 @@ div.account #sign {
   margin-right: auto;
 }
 
-p.detail, h3.detail{
+h3.detail{
   font-weight: 300;
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
@@ -160,9 +160,15 @@ h3.title{
   text-align: center;
 }
 
+
 span {
   color: white;
   font-size: 50px;
+  text-align: center;
+}
+
+.bullet-detail{
+  font-size: 20px;
   text-align: center;
 }
 
@@ -177,6 +183,12 @@ div.athletes {
   min-height: 2666px;
   background-position: center center;
   background-size: cover;
+}
+
+img.blurb{
+  display: block;
+  margin: auto;
+  padding-top: 80px;
 }
 
 div.footer {
