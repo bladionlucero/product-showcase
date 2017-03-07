@@ -196,6 +196,12 @@ div.footer {
   background-color: #333333;
 }
 
+div.app-stores{
+  display: table-cell;
+  position: relative;
+  padding-top: 150px;
+}
+
 .footer .footer-links {
   position: absolute;
   display: table-cell;
