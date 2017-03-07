@@ -18,6 +18,7 @@
     left: 0px;
     /*top: 1rem;*/
     cursor: pointer;  /* produces the finger-pointer icon when you hover over the logo */
+    padding: 40px;
 }
 
 .links {
@@ -88,22 +89,26 @@ h3.detail{
   font-size: 1.5rem;
 }
 
-#sponsors{
+#partners{
   text-align: center;
   color: black;
+  padding-top: 35px;
+  opacity: 0.6;
 }
 
 .phone {
   position: relative;
 }
 
-.navbar .logo {
-  padding: 4rem;
-}
-
-div.sponsors {
+div.partners {
   background-color: white;
   min-height: 321px;
+}
+
+img.partners {
+  display: block;
+  margin: auto;
+  padding-top: 25px;
 }
 
 
